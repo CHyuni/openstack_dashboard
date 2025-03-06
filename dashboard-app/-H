@@ -1,0 +1,8 @@
+HTTP/1.1 401 Unauthorized
+content-type: application/json
+content-length: 114
+www-authenticate: Keystone uri="http://10.0.0.2:5000"
+x-openstack-request-id: req-2341cff7-8d53-4f99-8914-11cac27c8fe8
+x-compute-request-id: req-2341cff7-8d53-4f99-8914-11cac27c8fe8
+
+{"error": {"code": 401, "title": "Unauthorized", "message": "The request you have made requires authentication."}}
